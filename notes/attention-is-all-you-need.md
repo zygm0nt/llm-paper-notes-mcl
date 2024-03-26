@@ -8,6 +8,23 @@ The authors demonstrate the effectiveness of the Transformer on two machine tran
 
 The Transformer model represents a significant advancement in the field of natural language processing and has set a new standard for subsequent research. Its ability to train more quickly and efficiently than previous models, while achieving superior performance, has made it a cornerstone architecture for many modern NLP tasks.
 
+
+### Why use attention?
+
+The use of attention mechanisms in the Transformer model addresses several limitations of previous sequence transduction models, primarily those based on recurrent neural networks (RNNs) and convolutional neural networks (CNNs). Here are the main reasons for adopting attention mechanisms:
+
+1. **Parallelization:** Unlike RNNs, which process data sequentially, attention mechanisms allow for the simultaneous processing of all positions in a sequence. This parallelization significantly speeds up training, as dependencies between elements can be computed without the need to process previous elements in the sequence.
+
+2. **Capturing Long-range Dependencies:** Attention mechanisms can easily capture relationships between elements in a sequence, regardless of their distance. This capability is crucial for understanding the context and nuances in natural language processing tasks, where long-range dependencies are common.
+
+3. **Flexibility and Efficiency:** The Transformer uses multi-head attention to allow the model to focus on different parts of a sequence for different tasks. This flexibility enables the model to learn diverse aspects of the data, such as syntactic and semantic relationships, more efficiently than models that rely on a single method for processing sequences.
+
+4. **Reduced Complexity:** The Transformer avoids the complex gating mechanisms and state updates used in RNNs and LSTMs, simplifying the model architecture. Attention mechanisms provide a more straightforward approach to handling sequence data, reducing the model's complexity without sacrificing performance.
+
+5. **Improved Interpretability:** Attention weights can be analyzed to understand how the model is making predictions, offering insights into which parts of the input data are influencing the output. This interpretability is beneficial for debugging models and for gaining insights into the model's decision-making process.
+
+Overall, the adoption of attention mechanisms in the Transformer model provides a more efficient, interpretable, and powerful framework for handling sequence data, leading to significant improvements in a wide range of natural language processing tasks.
+
 ### Questions
 
 1. What is the Transformer model, and how does it differ from traditional recurrent neural networks (RNNs) and convolutional neural networks (CNNs) in processing sequential data?
