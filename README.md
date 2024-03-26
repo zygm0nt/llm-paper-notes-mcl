@@ -3,7 +3,7 @@ Notes from the [Latent Space paper club](https://www.latent.space/about#§compon
 
 ---
 
-1. [ ] **[Attention Is All You Need](https://arxiv.org/abs/1706.03762):** Query, Key, and Value are all you need\* (\*Also position embeddings, multiple heads, feed-forward layers, skip-connections, etc.)
+1. [ ] **[Attention Is All You Need](https://arxiv.org/abs/1706.03762):** Query, Key, and Value are all you need\* (\*Also position embeddings, multiple heads, feed-forward layers, skip-connections, etc.) [notes](notes/attention-is-all-you-need.md)
 
 2. [ ] **[GPT: Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf):** Decoder is all you need\* (\*Also, pre-training + finetuning)
 
@@ -85,7 +85,7 @@ Notes from the [Latent Space paper club](https://www.latent.space/about#§compon
 
 41. [ ] **[REST^EM; Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models](https://arxiv.org/abs/2312.06585)**: Synthetic data and a reward function are all you need
 
-42. [ ] **[Mixture Of Experts Explained](https://huggingface.co/blog/moe#capacity-factor-and-communication-costs)**: MOE is a architectural choice to route observations to subnetworks within a block. This allows us to scale up parameter counts by introducting more experts and hence capabilities of our network. However, this introduces new  challenges due to the higher parameter count to run inference with, training instabilities and inference-time provisioning of experts across devices.
+42. [ ] **[Mixture Of Experts Explained](https://huggingface.co/blog/moe#capacity-factor-and-communication-costs)**: MOE is a architectural choice to route observations to subnetworks within a block. This allows us to scale up parameter counts by introducting more experts and hence capabilities of our network. However, this introduces new  challenges due to the higher parameter count to run inference with, training instabilities and inference-time provisioning of experts across devices.  [notes](notes/Mixture-Of-Experts-Hugging-Face.md)
 
 43. [ ] **[Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560)**: ([GitHub Repo](https://discord.com/channels/822583790773862470/1197350122112168006), [LS Discord chat](https://discord.com/channels/822583790773862470/1197350122112168006/1199809444897361970))
 
