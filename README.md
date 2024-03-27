@@ -3,9 +3,9 @@ Notes from the [Latent Space paper club](https://www.latent.space/about#§compon
 
 ---
 
-1. [\] **[Attention Is All You Need](https://arxiv.org/abs/1706.03762):** Query, Key, and Value are all you need\* (\*Also position embeddings, multiple heads, feed-forward layers, skip-connections, etc.) [notes](notes/attention-is-all-you-need.md)
+1. [+] **[Attention Is All You Need](https://arxiv.org/abs/1706.03762):** Query, Key, and Value are all you need\* (\*Also position embeddings, multiple heads, feed-forward layers, skip-connections, etc.) [notes](notes/attention-is-all-you-need.md)
 
-2. [\] **[GPT: Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf):** Decoder is all you need\* (\*Also, pre-training + fine-tuning) [notes](notes/improving-language-understanding-by-generative-pre-training.md)
+2. [+] **[GPT: Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf):** Decoder is all you need\* (\*Also, pre-training + fine-tuning) [notes](notes/improving-language-understanding-by-generative-pre-training.md)
 
 3. [ ] **[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805):** Encoder is all you need\*. Left-to-right language modeling is NOT all you need. (\*Also, pre-training + finetuning)
 
