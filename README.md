@@ -9,7 +9,7 @@ Notes from the [Latent Space paper club](https://www.latent.space/about#§compon
 
 3. [x] **[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805):** Encoder is all you need\*. Left-to-right language modeling is NOT all you need. (\*Also, pre-training + fine-tuning) [notes](notes/bert-pre-training-of-deep-bidirectional.md)
 
-4. [ ] **[T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683):** Encoder-only or decoder-only is NOT all you need, though text-to-text is all you need\* (\*Also, pre-training + finetuning)
+4. [x] **[T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683):** Encoder-only or decoder-only is NOT all you need, though text-to-text is all you need\* (\*Also, pre-training + fine-tuning) [notes](notes/t5-text-to-text-transformer.md)
 
 5. [ ] **[GPT2: Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf):** Unsupervised pre-training is all you need?!
 
