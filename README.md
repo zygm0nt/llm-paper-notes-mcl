@@ -11,7 +11,7 @@ Notes from the [Latent Space paper club](https://www.latent.space/about#§compon
 
 4. [x] **[T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683):** Encoder-only or decoder-only is NOT all you need, though text-to-text is all you need\* (\*Also, pre-training + fine-tuning) [notes](notes/t5-text-to-text-transformer.md)
 
-5. [ ] **[GPT2: Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf):** Unsupervised pre-training is all you need?!
+5. [x] **[GPT2: Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf):** Unsupervised pre-training is all you need?! [notes](notes/gpt-2-lm-are-multitask-learners.md)
 
 6. [ ] **[GPT3: Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165):** Unsupervised pre-training + a few* examples is all you need. (\*From 5 examples, in Conversational QA, to 50 examples  in Winogrande, PhysicalQA, and TriviaQA)
 
