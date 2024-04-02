@@ -73,4 +73,4 @@ These questions and answers should serve as an effective review tool for the key
 
 "Here's an image that encapsulates the essence of the article, illustrating the GPT-2 model's journey through learning from a diverse dataset and its ability to perform multiple tasks in a zero-shot setting."
 
-![summary image](../assets/gpt2-summary-image.png)
+![summary image](../assets/gpt2-summary-image.webp)
