@@ -18,8 +18,8 @@ The main contributions of the paper "Language Models are Few-Shot Learners" are 
 
 These contributions mark significant advancements in the field of natural language processing and demonstrate the potential of large-scale language models to perform a wide variety of tasks with minimal task-specific input.
 
-![zero to few shot performance](gpt-3-performance-plot.png)
-![zero to few shot performance, aggregated per task](gpt-3-agg-performance-plot.png)
+![zero to few shot performance](../assets/gpt-3-performance-plot.png)
+![zero to few shot performance, aggregated per task](../assets/gpt-3-agg-performance-plot.png)
 
 
 ## Evaluation tasks presented
@@ -45,6 +45,10 @@ The paper "Language Models are Few-Shot Learners" presents a comprehensive evalu
 9. **News Article Generation:** A qualitative assessment of GPT-3's ability to generate coherent and plausible news articles, analyzing its potential for content creation and the challenges in distinguishing between model-generated and human-written text.
 
 These tasks collectively showcase GPT-3's broad applicability across diverse language processing challenges, demonstrating its advancements in understanding and generating human-like text across different contexts and formats.
+
+## Zero, one-shot, few-shot
+
+![zero to few shot performance, aggregated per task](../assets/gpt-3-few-shot-learning.png)
 
 ## Review questions 
 
