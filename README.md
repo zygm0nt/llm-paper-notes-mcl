@@ -13,7 +13,7 @@ Notes from the [Latent Space paper club](https://www.latent.space/about#§compon
 
 5. [x] **[GPT2: Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf):** Unsupervised pre-training is all you need?! [notes](notes/gpt-2-lm-are-multitask-learners.md)
 
-6. [ ] **[GPT3: Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165):** Unsupervised pre-training + a few* examples is all you need. (\*From 5 examples, in Conversational QA, to 50 examples  in Winogrande, PhysicalQA, and TriviaQA)
+6. [x] **[GPT3: Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165):** Unsupervised pre-training + a few* examples is all you need. (\*From 5 examples, in Conversational QA, to 50 examples  in Winogrande, PhysicalQA, and TriviaQA) [notes](notes/gpt-3-lang-models-few-shot-learners.md)
 
 7. [ ] **[Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361):** Larger models trained on lesser data\* are what you you need. (\*10x more compute should be spent on 5.5x larger model and 1.8x more tokens)
 
