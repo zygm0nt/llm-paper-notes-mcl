@@ -21,7 +21,7 @@ Original repo is here: https://github.com/eugeneyan/llm-paper-notes <- look for 
 
 8. [x] **[Chinchilla: Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556):** Smaller models trained on more data\* are what you need. (\*10x more compute should be spent on 3.2x larger model and 3.2x more tokens) [notes](notes/chinchilla.md)
 
-9. [ ] **[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971):** Smoler models trained longer—on public data—is all you need
+9. [x] **[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971):** Smoler models trained longer—on public data—is all you need [notes](notes/llama_open_model.md)
 
 10. [ ] **[InstructGPT: Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155):** 40 labelers are all you need\* (\*Plus supervised fine-tuning, reward modeling, and PPO)
 
