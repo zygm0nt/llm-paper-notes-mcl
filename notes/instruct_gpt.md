@@ -1,3 +1,3 @@
 The RLHF paper.
 
-  ![](Instruct_gpt_1.png)
+  ![](../assets/Instruct_gpt_1.png)
