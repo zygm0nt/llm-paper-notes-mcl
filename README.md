@@ -23,7 +23,7 @@ Original repo is here: https://github.com/eugeneyan/llm-paper-notes <- look for 
 
 9. [x] **[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971):** Smoler models trained longer—on public data—is all you need [notes](notes/llama_open_model.md)
 
-10. [ ] **[InstructGPT: Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155):** 40 labelers are all you need\* (\*Plus supervised fine-tuning, reward modeling, and PPO)
+10. [x] **[InstructGPT: Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155):** 40 labelers are all you need\* (\*Plus supervised fine-tuning, reward modeling, and PPO) [notes](notes/instruct_gpt.md)
 
 11. [ ] **[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685):** One rank is all you need
 
