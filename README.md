@@ -25,7 +25,7 @@ Original repo is here: https://github.com/eugeneyan/llm-paper-notes <- look for 
 
 10. [x] **[InstructGPT: Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155):** 40 labelers are all you need\* (\*Plus supervised fine-tuning, reward modeling, and PPO) [notes](notes/instruct_gpt.md)
 
-11. [ ] **[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685):** One rank is all you need
+11. [x] **[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685):** One rank is all you need [notes](notes/LoRA.md)
 
 12. [ ] **[QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314):** 4-bit is all you need\* (\*Plus double quantization and paged optimizers)
 
