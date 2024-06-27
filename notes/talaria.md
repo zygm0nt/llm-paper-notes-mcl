@@ -1,3 +1,17 @@
+The article titled "Talaria: Interactively Optimizing Machine Learning Models for Efficient Inference" presents a comprehensive tool developed by a team at Apple to improve the efficiency of machine learning models when deployed on devices with limited resources. This tool, named Talaria, is designed to help practitioners optimize models by balancing crucial metrics such as model size, power consumption, and latency, ensuring that the models are suitable for on-device applications.
+
+The main features of Talaria include:
+
+1. **Model Visualization and Optimization**: Talaria enables users to compile models to hardware and provides an interactive visualization of model operations and hardware statistics. It features a dual interface that displays operational details in both table and graph views, facilitating the identification and optimization of computational bottlenecks.
+
+2. **Interactive Model Optimization**: Talaria allows users to simulate and apply various optimization techniques, which can significantly enhance inference efficiency on hardware. The tool provides instant feedback on how different optimizations affect model performance metrics like memory usage and latency.
+
+3. **User Evaluations**: Since its deployment, Talaria has been assessed through various methodologies, including log analysis, user surveys, and interviews. These evaluations have helped gather feedback and measure the tool's effectiveness and usability.
+
+4. **Contributions and Future Work**: The development of Talaria is seen as a significant contribution to the field of efficient ML, particularly for on-device use cases. The tool underscores the need for and benefits of specialized tooling in optimizing machine learning models for enhanced performance on constrained devices.
+
+This tool aims to bridge the gap between the increasing complexity of machine learning models and the limited computational resources available on many devices, promoting more efficient and privacy-preserving machine learning applications.
+
 
 ## Types of model compression
 
