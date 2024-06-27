@@ -1,1 +1,3 @@
 
+
+![diagram](../assets/talaria.png)
