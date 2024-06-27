@@ -10,3 +10,8 @@ https://www.microsoft.com/en-us/research/project/orca/publications/
 ### Phi
 
 * [ ] ???
+
+## Serving
+
+* [x] [Talaria: Interactively Optimizing Machine Learning Models for Efficient Inference](https://arxiv.org/abs/2404.03085) | [notes](notes/talaria.md)
+* [ ] 
