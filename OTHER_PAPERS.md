@@ -20,4 +20,4 @@ https://www.microsoft.com/en-us/research/project/orca/publications/
 ## Retrieval
 
 * [x] [ColPali: Efficient Document Retrieval with Vision Language Models](https://arxiv.org/abs/2407.01449) | [notes](notes/ColPali.md)
-* [ ] 
+* [x] [How Does Generative Retrieval Scale to Millions of Passages?](https://arxiv.org/abs/2305.11841) | [notes](notes/generative_retrieval_to_millions.md)
