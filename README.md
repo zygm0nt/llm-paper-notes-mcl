@@ -95,3 +95,7 @@ Original repo is here: https://github.com/eugeneyan/llm-paper-notes <- look for 
 
 45. [ ] **[Self-Rewarding Language Models](https://arxiv.org/abs/2401.10020)**: ([GitHub Repo](https://github.com/lucidrains/self-rewarding-lm-pytorch), [LS Discord Chat](https://discord.com/channels/822583790773862470/1197350122112168006/1204880366993674251)): Instead of training reward models from human preferences, LLMs can be used to provide their own rewards during training (aka WITHOUT distillation from GPT4). Fine-tuning Llama 2 70B on three iterations of our approach yields a model that outperforms many existing systems on the AlpacaEval 2.0 leaderboard, including Claude 2, Gemini Pro, and GPT-4 0613.
 
+
+## Aux papers
+
+1. [x] **[An In-depth Look at Gemini’s Language Abilities](https://arxiv.org/abs/2312.11444)** [notes](notes/gemini_indepth.md): The recently released Google Gemini class of models are the first to comprehensively report results that rival the OpenAI GPT series across a wide variety of tasks. In this paper, we do an in-depth exploration of Gemini's language abilities, making two contributions. First, we provide a third-party, objective comparison of the abilities of the OpenAI GPT and Google Gemini models with reproducible code and fully transparent results. Second, we take a closer look at the results, identifying areas where one of the two model classes excels.  
