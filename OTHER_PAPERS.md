@@ -22,3 +22,4 @@ https://www.microsoft.com/en-us/research/project/orca/publications/
 * [x] [ColPali: Efficient Document Retrieval with Vision Language Models](https://arxiv.org/abs/2407.01449) | [notes](notes/ColPali.md)
 * [x] [How Does Generative Retrieval Scale to Millions of Passages?](https://arxiv.org/abs/2305.11841) | [notes](notes/generative_retrieval_to_millions.md)
 * [x] [PALR: Personalization Aware LLMs for Recommendation](https://arxiv.org/abs/2305.07622) | [notes](notes/palr.md)
+* [x] :fire: [Captions Are Worth a Thousand Words: Enhancing Product Retrieval with Pretrained Image-to-Text Models](https://arxiv.org/abs/2402.08532) | [notes](notes/captions_are_worth.md)
