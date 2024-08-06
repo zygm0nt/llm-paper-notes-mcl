@@ -24,6 +24,9 @@ https://www.microsoft.com/en-us/research/project/orca/publications/
 * [x] [PALR: Personalization Aware LLMs for Recommendation](https://arxiv.org/abs/2305.07622) | [notes](notes/palr.md)
 * [x] :fire: [Captions Are Worth a Thousand Words: Enhancing Product Retrieval with Pretrained Image-to-Text Models](https://arxiv.org/abs/2402.08532) | [notes](notes/captions_are_worth.md)
 
+## Ranking
+
+* [x] [On Gradient Boosted Decision Trees and Neural Rankers: A Case-Study on Short-Video Recommendations at ShareChat](https://arxiv.org/abs/2312.01760) | [notes](notes/on_gdbt_vs_nn.md)
 
 ## Vision
 
