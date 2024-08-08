@@ -31,7 +31,7 @@ https://www.microsoft.com/en-us/research/project/orca/publications/
 ## Vision
 
 * [x] [Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs](https://arxiv.org/abs/2404.05719) | [notes](notes/Ferret-UI.md)
-* [x] Diffusion models
+* [x] Diffusion models [notes](notes/stable_diffusion.md)
   * https://huggingface.co/blog/annotated-diffusion
   * https://jalammar.github.io/illustrated-stable-diffusion/
     
