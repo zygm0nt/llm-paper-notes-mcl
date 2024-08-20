@@ -27,6 +27,7 @@ https://www.microsoft.com/en-us/research/project/orca/publications/
 ## Ranking
 
 * [x] [On Gradient Boosted Decision Trees and Neural Rankers: A Case-Study on Short-Video Recommendations at ShareChat](https://arxiv.org/abs/2312.01760) | [notes](notes/on_gdbt_vs_nn.md)
+* [x] [Transformers in music recommendation](https://research.google/blog/transformers-in-music-recommendation/)
 
 ## Vision
 
