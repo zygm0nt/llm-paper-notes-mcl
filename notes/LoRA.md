@@ -1,3 +1,9 @@
+## Gist
+
+LoRA doesn’t train the whole large language model at all, but instead adds “adaptors”, which are very small matrices (generally smaller than 1% of the full model) that are trained, whilst keeping the rest of the model constant.
+
+## Summary
+
 The paper "LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS" presents a method called Low-Rank Adaptation (LoRA) designed to efficiently adapt large pre-trained language models to specific downstream tasks. Here are the key points:
 
 1. **Problem Addressed**:
