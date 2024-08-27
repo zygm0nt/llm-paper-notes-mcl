@@ -42,3 +42,8 @@ https://www.microsoft.com/en-us/research/project/orca/publications/
     
 ## Various
 * [x] [From Text to Life: On the Reciprocal Relationship between Artificial Life and Large Language Models](https://arxiv.org/abs/2407.09502) | [notes](notes/from_text_to_life.md)
+* [x] Building with LLMs | [notes](notes/building_with_llms.md)
+   * [x]  https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/
+   * [ ]  https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-ii/
+   * [ ]  https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-iii-strategy/
+* [ ]  
