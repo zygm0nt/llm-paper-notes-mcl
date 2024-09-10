@@ -47,3 +47,7 @@ https://www.microsoft.com/en-us/research/project/orca/publications/
    * [ ]  https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-ii/
    * [ ]  https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-iii-strategy/
 * [ ]  
+
+## LLMs
+
+* [x] [Eight Things to Know about Large Language Models](https://arxiv.org/abs/2304.00612) | [notes](notes/8_things_to_know.md)
