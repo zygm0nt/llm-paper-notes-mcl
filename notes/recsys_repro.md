@@ -15,7 +15,15 @@ The paper highlights the importance of balancing accuracy and reproducibility, p
 
 ## Important considerations
 
-IMAGES
+![](../assets/recsys_repro_1.png)
+
+![](../assets/recsys_repro_2.png)
+
+![](../assets/recsys_repro_3.png)
+
+![](../assets/recsys_repro_4.png)
+
+![](../assets/recsys_repro_5.png)
 
 ## SmeLU
 
