@@ -47,7 +47,8 @@ https://www.microsoft.com/en-us/research/project/orca/publications/
    * [x]  https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/
    * [ ]  https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-ii/
    * [ ]  https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-iii-strategy/
-* [ ]  
+* [x] [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) | [notes](notes/flamingo.md)
+* [ ] 
 
 ## LLMs
 
