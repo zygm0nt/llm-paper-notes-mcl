@@ -1,3 +1,3 @@
-![](../assets/colber_01.png)
+![](../assets/colbert_01.png)
 
-![](../assets/colber_02.png)
+![](../assets/colbert_02.png)
