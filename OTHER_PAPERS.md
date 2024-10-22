@@ -40,6 +40,7 @@ https://www.microsoft.com/en-us/research/project/orca/publications/
 * [x] Diffusion models [notes](notes/stable_diffusion.md)
   * https://huggingface.co/blog/annotated-diffusion
   * https://jalammar.github.io/illustrated-stable-diffusion/
+* [x] [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597) | [notes](notes/u-net.md)
     
 ## Various
 * [x] [From Text to Life: On the Reciprocal Relationship between Artificial Life and Large Language Models](https://arxiv.org/abs/2407.09502) | [notes](notes/from_text_to_life.md)
