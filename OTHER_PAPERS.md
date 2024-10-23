@@ -9,7 +9,7 @@ https://www.microsoft.com/en-us/research/project/orca/publications/
 
 ### Phi
 
-* [ ] ???
+* [x] [Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone](https://arxiv.org/abs/2404.14219) | [notes](notes/phi-3.md)
 
 ## Serving
 
