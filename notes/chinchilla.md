@@ -1,3 +1,7 @@
+TLDR: Optimal training: 20:1 token to parameter ratio, if considering cheaper inference: > 150:1
+
+![](../assets/chinchilla_01.png)
+
 The article "Training Compute-Optimal Large Language Models" explores the optimal scaling of model size and training data under fixed compute budgets for training transformer language models. Key findings and points from the article include:
 
 1. **Under-Training of Current Large Models**: The study finds that current large language models (LLMs) are significantly under-trained due to a focus on increasing model size while keeping training data constant.
