@@ -66,9 +66,3 @@ This paper presents insights and recommendations from Microsoft's AI Red Team (A
 | **Roleplay-Based Exploits**      | Users simulate distress or other roles to bypass safeguards.                    |
 | **Language-Based Gaps**          | Jailbreaks or harmful behaviors vary across multilingual contexts.              |
 
----
-
-Let me know if you want:
-- A visual threat matrix
-- Deeper dive into PyRIT
-- Practical checklist for AI red teaming
