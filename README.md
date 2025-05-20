@@ -3,6 +3,11 @@ Notes from the [Latent Space paper club](https://www.latent.space/about#§compon
 
 Original repo is here: https://github.com/eugeneyan/llm-paper-notes <- look for new articles there.
 
+## Other lists
+
+* [Other LLM papers](OTHER_PAPERS.md)
+* [General CS papers](CS_PAPERS.md)
+
 ---
 
 1. [x] **[Attention Is All You Need](https://arxiv.org/abs/1706.03762):** Query, Key, and Value are all you need\* (\*Also position embeddings, multiple heads, feed-forward layers, skip-connections, etc.) [notes](notes/attention-is-all-you-need.md)
