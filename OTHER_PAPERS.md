@@ -54,7 +54,3 @@ https://www.microsoft.com/en-us/research/project/orca/publications/
 
 * [x] [Eight Things to Know about Large Language Models](https://arxiv.org/abs/2304.00612) | [notes](notes/8_things_to_know.md)
 
-## Distributed systems
-
-* [ ] [Monarch: Google's Planet-Scale In-Memory Time Series Database](https://www.vldb.org/pvldb/vol13/p3181-adams.pdf) |[notes](notes/monarch.md)
-* [ ] 
