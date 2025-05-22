@@ -34,4 +34,159 @@ Processing queries in Monarch is also difficult because they have to be globally
 
 What are the takeaways? What I found most interesting about Monarch is how it is designed to operate well during a catastrophe. Most databases prioritize strong consistency guarantees–if a query can’t be answered correctly (or data can’t be written durably), it isn’t answered at all. But Monarch needs to work even when everything else is broken, so at every level of its stack it prioritizes availability, getting as much data as possible to the engineers trying to fix a problem. That’s a valuable lesson–match your guarantees to what your users need!
 
+![xx](../assets/monarch_01.webp)
+![xx](../assets/monarch_02.webp)
+
+![xx](../assets/monarch_03.png)
+![xx](../assets/monarch_04.png)
+![xx](../assets/monarch_05.png)
+
+## Summary
+
+The paper titled **"Monarch: Google’s Planet-Scale In-Memory Time Series Database"** presents *Monarch*, a globally distributed, multi-tenant in-memory time series database developed and operated by Google to monitor its vast infrastructure and services. Below is a concise **outline of the key points and contributions**:
+
+---
+
+## **Key Points**
+
+### **1. Motivation & Background**
+
+* Google operates large-scale services like YouTube, Gmail, and infrastructure components like Spanner and Borg, which generate massive monitoring data.
+* Monarch was developed to replace the older Borgmon system, which had significant limitations:
+
+  * Operational complexity due to decentralization.
+  * Lack of schema support and expressive queries.
+  * Inadequate support for statistical value types (e.g., histograms).
+  * Manual sharding and query evaluation limitations.
+
+### **2. System Architecture**
+
+* **Regionalized architecture**: Monarch zones are autonomous, regional subsystems that ingest and store data locally for fault tolerance.
+* **Global query and configuration planes**: Provide a unified interface and centralized management across zones.
+* **In-memory storage**: Chosen to avoid dependencies on persistent storage, crucial for reliable monitoring and low-latency alerts (see *Figure 1, page 2*).
+
+### **3. Data Model**
+
+* Monarch uses a **relational time series model** with:
+
+  * **Targets**: Describe monitored entities (e.g., a task).
+  * **Metrics**: Describe aspects like latency or resource usage.
+  * Supports **rich value types**, including **distributions with exemplars** (e.g., Dapper traces), crucial for statistical analysis (see *Figures 2–4, pages 3–4*).
+
+### **4. Data Collection and Ingestion**
+
+* **Multi-tier ingestion pipeline**: Ingestion routers, leaf routers, and leaves.
+* **Collection aggregation**: Efficiently aggregates high-volume data at ingestion time (e.g., for disk I/O metrics).
+* **Intra-zone load balancing**: Uses target sharding for efficient ingestion and query execution.
+
+### **5. Query System**
+
+* Monarch features a **relational query language** with operations like `join`, `group_by`, `filter`, and `align` (see *Figure 6–7, page 6*).
+* **Hierarchical distributed execution**: Queries are executed through root mixers, zone mixers, and leaves.
+* **Pushdown optimizations**: Query operations are evaluated as close to data as possible (leaf → zone → root).
+* **Field Hints Index (FHI)**: A compact index used to minimize query fanout (see *Section 5.4, page 8*).
+
+### **6. Configuration System**
+
+* A **centralized configuration plane** based on Spanner ensures consistent settings and schema updates across zones.
+* Users can define custom schemas, retention policies, standing queries, and alerts.
+
+### **7. Performance and Scale**
+
+* As of 2019:
+
+  * Ingested \~2.2 TB/s of time series data.
+  * Stored \~950 billion time series using \~750 TB of memory.
+  * Served over 6 million queries per second.
+* Aggressive **query optimization and aggregation** reduce latency and improve scalability (see *Figures 8–12, pages 10–11*).
+
+### **8. Lessons Learned**
+
+* Lexicographic sharding improves ingestion/query performance.
+* Push-based ingestion is simpler and more reliable than pull-based.
+* Structured schemas enable query optimization.
+* Operating as a multi-tenant service adds challenges in maintaining stability and performance.
+
+---
+
+## **Key Contributions**
+
+1. **Architecture**: Description of a globally-distributed, in-memory, multi-tenant time series database.
+2. **Data Model**: Introduction of a rich, schematized relational model supporting distribution types and exemplars.
+3. **Scalability Innovations**:
+
+   * Scalable ingestion pipeline with collection aggregation.
+   * Field Hints Index for efficient query targeting.
+   * Query execution optimizations with aggressive pushdown.
+4. **Operational Insights**: Lessons from a decade of operation at planet-scale.
+
+---
+
+Let me know if you'd like a visual diagram or summary slide based on this content.
+
+## A presentation about the Paper - from FOSDEM, not Google
+
+https://av.tib.eu/media/52742
+
+## Review Q&A 
+
+Here are 5 thoughtful **review questions** with **answers** to help you recall and reflect on the key concepts from the *Monarch* paper:
+
+---
+
+### **1. What were the key limitations of Borgmon that led to the development of Monarch?**
+
+**Answer:**
+
+* Decentralized architecture required teams to manage their own instances, creating operational overhead.
+* Lack of schema for metric dimensions led to ambiguous queries.
+* No support for distribution (histogram) metric types, limiting statistical analysis.
+* Manual sharding and limited support for cross-instance queries hindered scalability and usability.
+
+---
+
+### **2. How does Monarch’s regionalized architecture improve scalability and reliability?**
+
+**Answer:**
+
+* Each *Monarch zone* operates autonomously and stores data locally to reduce latency and avoid cross-region dependencies.
+* Local ingestion and querying allow operation during regional or network failures.
+* A *global query and configuration plane* unifies regional zones, enabling a coherent global system view.
+
+---
+
+### **3. What are the main components of Monarch’s data model, and how do they contribute to expressiveness in queries?**
+
+**Answer:**
+
+* **Targets** define the source entities (e.g., VMs, tasks) with key fields like cluster or user.
+* **Metrics** define what is being measured (e.g., latency, memory usage) and support types like `int`, `double`, `distribution`.
+* **Distributions with exemplars** allow efficient storage of histograms and deep debugging (e.g., tracing slow RPCs).
+* The relational schema supports joins, grouping, and complex filtering, enabling expressive and optimized queries.
+
+---
+
+### **4. What role does the Field Hints Index (FHI) play in Monarch’s query system?**
+
+**Answer:**
+
+* FHI is a memory-resident, compact index of field value excerpts (e.g., trigrams) that reduces query fanout.
+* It helps locate only the relevant zones, leaves, and targets for a query.
+* Despite using fuzzy matching (allowing some false positives), it reduces fanout by 99.5% at the zone level and 80% at the root level, significantly improving performance.
+
+---
+
+### **5. How does Monarch support high-throughput, low-latency queries at massive scale?**
+
+**Answer:**
+
+* **Query pushdown** executes operations as close to the data as possible (leaf → zone → root).
+* **Standing queries** precompute frequent or alerting queries for fast access.
+* **Hierarchical execution** with mixers and evaluators balances load.
+* **Collection aggregation** reduces data volume at ingestion.
+* Techniques like **hedged reads** and **replica resolution** ensure reliable results even under partial failures.
+
+---
+
+Let me know if you’d like to turn these into an Anki flashcard format or create more questions!
 
