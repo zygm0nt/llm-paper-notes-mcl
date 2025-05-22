@@ -34,3 +34,4 @@ Processing queries in Monarch is also difficult because they have to be globally
 
 What are the takeaways? What I found most interesting about Monarch is how it is designed to operate well during a catastrophe. Most databases prioritize strong consistency guarantees–if a query can’t be answered correctly (or data can’t be written durably), it isn’t answered at all. But Monarch needs to work even when everything else is broken, so at every level of its stack it prioritizes availability, getting as much data as possible to the engineers trying to fix a problem. That’s a valuable lesson–match your guarantees to what your users need!
 
+
