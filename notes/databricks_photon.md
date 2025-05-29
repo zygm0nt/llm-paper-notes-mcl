@@ -93,7 +93,3 @@ The paper **"Photon: A Fast Query Engine for Lakehouse Systems"** presents *Phot
 
 * **Photon succeeds by blending columnar, vectorized, and adaptive techniques** within a native engine, while maintaining compatibility with Spark workloads.
 * It provides **enterprise-grade performance** on open data formats (like Delta Lake) without the need to move data into specialized warehouses.
-
----
-
-If you're interested in any specific section (e.g., adaptivity mechanisms, memory management, integration), I can provide a deeper summary.
