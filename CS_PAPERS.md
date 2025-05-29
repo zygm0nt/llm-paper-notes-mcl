@@ -3,4 +3,4 @@
 ## Distributed systems
 
 * [x] [Monarch: Google's Planet-Scale In-Memory Time Series Database](https://www.vldb.org/pvldb/vol13/p3181-adams.pdf) |[notes](notes/monarch.md)
-* [ ] 
+* [x] [Photon: A Fast Query Engine for Lakehouse Systems](https://people.eecs.berkeley.edu/~matei/papers/2022/sigmod_photon.pdf) | [notes](notes/databricks_photon.md)
