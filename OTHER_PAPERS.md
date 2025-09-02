@@ -1,5 +1,8 @@
 ## SML
 
+* [ ] [Small Language Models: Survey, Measurements, and Insights](https://arxiv.org/abs/2409.15790) | [notes](notes/sml_survey.md)
+* [ ] 
+
 ### ORCA
 
 https://www.microsoft.com/en-us/research/project/orca/publications/
