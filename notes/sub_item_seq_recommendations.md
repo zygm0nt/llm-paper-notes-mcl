@@ -1,3 +1,5 @@
+TLDR
+This work introduces **PQTopK**, a parallelisable scoring algorithm for compressed Transformer-based recommenders. It preserves recommendation quality, dramatically reduces inference time (especially at million+ item scale), and enables practical deployment of such models in industry.
 
 Related article [Restructuring Vector Quantization with the Rotation Trick](rotation_trick.md)
 
@@ -71,12 +73,5 @@ Related article [Restructuring Vector Quantization with the Rotation Trick](rota
 * The paper demonstrates the **first analysis** of inference in sub-ID-based sequential models at large scale.
 * **PQTopK enables efficient CPU-only inference** with catalogues of millions of items, overcoming a major obstacle for production deployment.
 * Findings suggest this approach makes Transformer-based recommenders feasible in **real-world, large-scale systems** .
-
----
-
-✅ **In short:**
-This work introduces **PQTopK**, a parallelisable scoring algorithm for compressed Transformer-based recommenders. It preserves recommendation quality, dramatically reduces inference time (especially at million+ item scale), and enables practical deployment of such models in industry.
-
----
 
 Would you like me to also create a **one-page executive-style summary** (with bullet points and a visual workflow from the diagrams on pages 2–3) for quick sharing with colleagues?
