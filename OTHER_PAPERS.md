@@ -33,6 +33,8 @@ https://www.microsoft.com/en-us/research/project/orca/publications/
 * [x] [Transformers in music recommendation](https://research.google/blog/transformers-in-music-recommendation/)
 * [x] [G-STO: Sequential Main Shopping Intention Detection via Graph-Regularized Stochastic Transformer](https://arxiv.org/abs/2306.14314) | [notes](notes/G-sto.md)
 * [x] [Real World Large Scale Recommendation Systems Reproducibility and Smooth Activations](https://arxiv.org/abs/2202.06499) | [notes](notes/recsys_repro.md)
+* [x] [Efficient Inference of Sub-Item Id-based Sequential Recommendation Models with Millions of Items](https://arxiv.org/abs/2408.09992) | [notes](notes/sub_item_seq_recommendations.md)
+* [ ] 
 
 ## Vision
 
