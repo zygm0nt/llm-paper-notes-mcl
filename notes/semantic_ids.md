@@ -1,0 +1,4 @@
+
+The paper addresses the limitations of randomly hashed item IDs in large-scale recommendation systems, which hinder generalization to new and long-tail items. It proposes replacing random IDs with **Semantic IDs (SIDs)**, compact discrete item representations learned from content embeddings using RQ-VAE. To adapt SIDs for ranking models, the authors test **N-gram** and **SentencePiece (SPM)** tokenization methods, finding SPM superior for balancing memorization and generalization. Experiments on YouTube’s production ranking model show that SIDs outperform both raw content embeddings and random IDs, particularly in handling cold-start and newly introduced videos. Overall, SIDs provide a scalable, efficient, and more generalizable alternative to random IDs in industry-scale recommendation systems.
+
+![](../assets/semantic_ids_1.png)
