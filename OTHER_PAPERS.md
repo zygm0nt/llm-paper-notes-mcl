@@ -31,6 +31,8 @@ https://www.microsoft.com/en-us/research/project/orca/publications/
 ## Ranking
 
 * [x] [On Gradient Boosted Decision Trees and Neural Rankers: A Case-Study on Short-Video Recommendations at ShareChat](https://arxiv.org/abs/2312.01760) | [notes](notes/on_gdbt_vs_nn.md)
+* [x] [Better Generalization with Semantic IDs: A Case Study in Ranking for Recommendations](https://arxiv.org/abs/2306.08121) | [notes](notes/semantic_ids.md)
+* [ ] 
 
 ## Recommendations
 
