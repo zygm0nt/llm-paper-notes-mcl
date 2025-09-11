@@ -11,6 +11,8 @@
 * MarioGPT is the **first text-to-level model**, showing that LLMs can conditionally generate playable game environments from simple text instructions.
 * Prompts can describe multiple attributes (pipes, enemies, blocks, elevation), and MarioGPT produces levels that follow these constraints most of the time (e.g., 92% accuracy for block counts, 81% for pipes, 68% for enemies, and 76% for elevation; *Table 3, p. 8*).
 
+![](../assets/mario_gpt_1.png)
+![](../assets/mario_gpt_2.png)
 ---
 
 ## 3. **Integration with Novelty Search**
