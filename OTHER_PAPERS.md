@@ -1,6 +1,7 @@
 ## SML
 
-* [ ] [Small Language Models: Survey, Measurements, and Insights](https://arxiv.org/abs/2409.15790) | [notes](notes/sml_survey.md)
+* [x] [Small Language Models: Survey, Measurements, and Insights](https://arxiv.org/abs/2409.15790) | [notes](notes/sml_survey.md)
+* [x] [MarioGPT: Open-Ended Text2Level Generation through Large Language Models](https://arxiv.org/abs/2302.05981) | [notes](notes/mario_gpt.md)
 * [ ] 
 
 ### ORCA
