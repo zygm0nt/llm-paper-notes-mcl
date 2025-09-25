@@ -61,4 +61,5 @@ https://www.microsoft.com/en-us/research/project/orca/publications/
 ## LLMs
 
 * [x] [Eight Things to Know about Large Language Models](https://arxiv.org/abs/2304.00612) | [notes](notes/8_things_to_know.md)
+* [x] [ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory](https://arxiv.org/abs/2306.03901) | [notes](notes/chatdb.md)
 
